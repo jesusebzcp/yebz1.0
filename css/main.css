@@ -1,0 +1,791 @@
+    /*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
+    /* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+    /*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+    /* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+    
+    html {
+        color: #222;
+        font-size: 1em;
+        line-height: 1.4;
+    }
+    /*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+    
+     ::-moz-selection {
+        background: #b3d4fc;
+        text-shadow: none;
+    }
+    
+     ::selection {
+        background: #b3d4fc;
+        text-shadow: none;
+    }
+    /*
+ * A better looking default horizontal rule
+ */
+    
+    hr {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid #ccc;
+        margin: 1em 0;
+        padding: 0;
+    }
+    /*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+    
+    audio,
+    canvas,
+    iframe,
+    img,
+    svg,
+    video {
+        vertical-align: middle;
+    }
+    /*
+ * Remove default fieldset styles.
+ */
+    
+    fieldset {
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+    /*
+ * Allow only vertical resizing of textareas.
+ */
+    
+    textarea {
+        resize: vertical;
+    }
+    /* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+    
+    .browserupgrade {
+        margin: 0.2em 0;
+        background: #ccc;
+        color: #000;
+        padding: 0.2em 0;
+    }
+    /* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+    /* estilos para gracias */
+    
+    .fa-check {
+        color: green;
+        font-size: 6rem;
+        margin: 4rem;
+    }
+    
+    .centrar {
+        text-align: center;
+        margin-top: 6rem;
+    }
+    
+    .ca {
+        font-size: 3rem;
+        color: black;
+    }
+    
+    .d {
+        text-decoration: none;
+        color: white;
+    }
+    /* cierre */
+    
+    img,
+    video {
+        max-width: 100%;
+    }
+    
+    .bg-dark {
+        background-color: rgba(0, 0, 0, 0.493)!important;
+    }
+    
+    .hero {
+        background-image: url(../img/hero.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        background-attachment: fixed;
+    }
+    
+    .yebz {
+        margin-right: 2rem;
+    }
+    
+    iframe {
+        max-height: 100%;
+        max-width: 100%;
+    }
+    
+    .fa-thumbs-up {
+        font-size: 2rem;
+        color: blue;
+    }
+    
+    .caja1 h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold!important;
+        color: white;
+    }
+    
+    .caja1 h2 p {
+        text-align: center;
+        text-transform: capitalize;
+    }
+    
+    .p12 {
+        text-transform: capitalize!important;
+        font-weight: bold!important;
+        font-size: 1.2rem!important;
+        text-align: center;
+        color: #F7DD04;
+    }
+    
+    .anim {
+        display: none;
+    }
+    
+    .anim1 {
+        display: none;
+    }
+    
+    .anim3 {
+        display: none;
+    }
+    
+    .botones {
+        text-align: center;
+    }
+    
+    .cont-img {
+        text-align: center;
+    }
+    
+    .cont-img2 {
+        text-align: center;
+    }
+    
+    .caja2 {
+        background-color: rgba(53, 51, 51, 0.808);
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        padding: 2rem;
+    }
+    
+    main h2 {
+        text-align: center;
+    }
+    
+    .presentacion {
+        margin: 0 auto;
+        margin: 2rem;
+    }
+    
+    .mapa1 {
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .mapa1 h2 {
+        margin: 2rem;
+    }
+    /* estilos para numeros */
+    
+    .cont-pasos {
+        text-align: center;
+        margin: 2rem;
+    }
+    
+    .numeros {
+        margin: 4rem 0;
+        -webkit-box-shadow: -8px 9px 13px -10px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -8px 9px 13px -10px rgba(0, 0, 0, 0.75);
+        box-shadow: -8px 9px 13px -10px rgba(0, 0, 0, 0.75);
+    }
+    
+    .numero {
+        font-size: 3rem;
+        font-weight: bold;
+        border: 6px solid black;
+        padding: 2rem;
+        border-radius: 50%;
+    }
+    
+    .pasosp {
+        margin: 3rem 0;
+        padding: 1rem;
+    }
+    
+    *div {
+        max-width: 100%
+    }
+    
+    .siete {
+        font-weight: bolder;
+        font-size: 1.2rem;
+    }
+    
+    .central {
+        text-align: center!important;
+    }
+    
+    .central p {
+        padding-bottom: 2rem;
+    }
+    
+    .n {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .w {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .paso {
+        margin-top: 2rem;
+    }
+    
+    .card-q p {
+        color: rgb(82, 81, 81);
+        text-align: justify;
+        font-weight: 700;
+    }
+    
+    .pasosp {
+        color: rgb(82, 81, 81);
+        font-weight: 700;
+    }
+    
+    span {
+        color: black;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    /* estilos de about */
+    
+    .about h2 {
+        text-transform: uppercase;
+        margin: 2rem;
+    }
+    
+    .perfil {
+        text-align: center;
+        margin: 2rem;
+    }
+    
+    .img-about {
+        margin: 1rem;
+    }
+    
+    .img-about img {
+        border-radius: 50%;
+    }
+    
+    .about-persona {
+        text-transform: capitalize;
+    }
+    
+    .trabajo {
+        text-transform: uppercase;
+        color: rgb(100, 100, 100);
+    }
+    
+    .redessociales-about a {
+        text-decoration: none;
+        margin: 0.3rem;
+    }
+    
+    .redessociales-about a i {
+        color: black;
+        font-size: 1.2rem;
+    }
+    
+    .img-about:hover {
+        -webkit-transform: rotateY(180deg);
+        -webkit-transform-style: preserve-3d;
+        transform: rotateY(180deg);
+        transform-style: preserve-3d;
+        transition: all 500ms ease-in-out;
+    }
+    /* estilos para website */
+    
+    .websites {
+        margin: 2rem 0;
+        background-image: url(../img/fondo.jpg);
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    /*     .caja3 {
+        background-image: url(../img/fondo.jpg);
+        height: 200vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    } */
+    
+    #typer {
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        color: rgb(82, 81, 81);
+    }
+    
+    .caja3 h1 {
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 2rem;
+    }
+    
+    .img-oco {
+        text-align: center;
+        margin-top: 1rem;
+    }
+    
+    .cont-websites {
+        margin-top: 2.5rem;
+    }
+    
+    .cabezado {
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    .resp-web {
+        margin: 2rem;
+    }
+    
+    .resp-web p {
+        text-align: left;
+        font-weight: 500;
+        color: rgb(41, 41, 41);
+    }
+    /* estilos para mejorar img */
+    
+    .mejorar-img {
+        color: white;
+        margin: 2rem 0;
+        background-image: url(../img/black-1072366_1280.jpg);
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    .segmento {
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    .mejorar-img h2 {
+        padding-top: 2rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    .servicios {
+        margin-top: 2rem;
+    }
+    
+    .img-ser {
+        text-align: center;
+        margin: 1rem 0;
+    }
+    
+    .cabezado2 {
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+    }
+    
+    .resp-web2 p {
+        font-weight: 700;
+        color: rgb(211, 209, 204);
+    }
+    /* estilos [ara pc */
+    
+    @media screen and (min-width: 769px) {
+        .caja1 {
+            height: 80vh;
+            width: 80vh;
+            padding: 4rem;
+        }
+        .caja1 h2 p {
+            text-align: center;
+            color: #222;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .caja1 h2 {
+            font-size: 3rem;
+        }
+        .cont-img img {
+            width: 10vh;
+        }
+        .flex {
+            display: flex;
+            justify-content: center;
+        }
+        .caja2 {
+            padding: 1rem;
+        }
+        .card-q {
+            margin: 1rem 3rem!important;
+        }
+        .cont-card h2 p {
+            margin: 1rem 5rem;
+        }
+        .p {
+            margin: 0 3rem 3rem 3rem;
+            color: gray;
+            font-weight: 700;
+        }
+        .cont-card img {
+            -webkit-box-shadow: -5px 7px 16px 0px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: -5px 7px 16px 0px rgba(0, 0, 0, 0.75);
+            box-shadow: -5px 7px 16px 0px rgba(0, 0, 0, 0.75);
+        }
+        .cont-card h3 {
+            margin-top: 2rem;
+        }
+        .flex {
+            display: flex;
+        }
+        .flex div {
+            margin: 0;
+        }
+        .pasosp p {
+            margin-top: 2rem!important;
+            text-align: left;
+        }
+        .letras {
+            margin-right: 4rem!important;
+        }
+        .correo {
+            margin-right: 2rem!important;
+        }
+        form {
+            display: flex;
+        }
+        /* pasos */
+        .numeros {
+            max-width: 100%;
+        }
+        .margin-card {
+            padding: 0 2rem;
+        }
+        .medio {
+            justify-content: center;
+            margin: 2rem 10rem;
+            padding: 4rem;
+        }
+        .dv {
+            margin: 4rem;
+        }
+    }
+    
+    footer {
+        background-color: #222;
+        color: white;
+    }
+    
+    .text-uppercase p {
+        margin: 2rem;
+    }
+    /* para hacer girar la img */
+    
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    
+    @-webkit-keyframes rotate {
+        from {
+            -webkit-transform: rotate(0deg);
+        }
+        to {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+    
+    .imgr {
+        -webkit-animation: 3s rotate linear infinite;
+        animation: 3s rotate linear infinite;
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+    }
+    
+    #imgr2 {
+        -webkit-animation-direction: reverse;
+        animation-direction: reverse;
+    }
+    /* whatsapp */
+    
+    .float {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #25d366;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 100;
+    }
+    
+    .my-float {
+        margin-top: 16px;
+    }
+    /* temblar img */
+    
+    .tiembla:hover {
+        -webkit-animation: tiembla 0.1s infinite;
+    }
+    
+    @-webkit-keyframes tiembla {
+        0% {
+            -webkit-transform: rotateZ(-5deg);
+        }
+        50% {
+            -webkit-transform: rotateZ( 0deg) scale(.8);
+        }
+        100% {
+            -webkit-transform: rotateZ( 5deg);
+        }
+    }
+    
+    .fa-thumbs-up {
+        -webkit-animation: tiembla 0.1s infinite;
+    }
+    
+    @-webkit-keyframes tiembla {
+        0% {
+            -webkit-transform: rotateZ(-5deg);
+        }
+        50% {
+            -webkit-transform: rotateZ( 0deg) scale(.8);
+        }
+        100% {
+            -webkit-transform: rotateZ( 5deg);
+        }
+    }
+    
+    .facebook {
+        text-align: center;
+        margin: 2rem;
+    }
+    
+    .facebook h2 {
+        margin: 2rem;
+        text-align: center;
+    }
+    
+    .btn-e {
+        margin: 1rem;
+    }
+    
+    .fa-facebook-f,
+    .fa-instagram,
+    .fa-linkedin-in {
+        font-size: 1.8rem;
+        margin: 1rem 1rem;
+    }
+    /* hidde */
+    /* ==========================================================================
+   Helper classes
+   ========================================================================== */
+    /*
+ * Hide visually and from screen readers
+ */
+    
+    .hidden {
+        display: none !important;
+    }
+    /*
+* Hide only visually, but have it available for screen readers:
+* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+*
+* 1. For long content, line feeds are not interpreted as spaces and small width
+*    causes content to wrap 1 word per line:
+*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+*/
+    
+    .sr-only {
+        border: 0;
+        clip: rect(0, 0, 0, 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+        /* 1 */
+    }
+    /*
+* Extends the .sr-only class to allow the element
+* to be focusable when navigated to via the keyboard:
+* https://www.drupal.org/node/897638
+*/
+    
+    .sr-only.focusable:active,
+    .sr-only.focusable:focus {
+        clip: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        position: static;
+        white-space: inherit;
+        width: auto;
+    }
+    /*
+* Hide visually and from screen readers, but maintain layout
+*/
+    
+    .invisible {
+        visibility: hidden;
+    }
+    /*
+* Clearfix: contain floats
+*
+* For modern browsers
+* 1. The space content is one way to avoid an Opera bug when the
+*    `contenteditable` attribute is included anywhere else in the document.
+*    Otherwise it causes space to appear at the top and bottom of elements
+*    that receive the `clearfix` class.
+* 2. The use of `table` rather than `block` is only necessary if using
+*    `:before` to contain the top-margins of child elements.
+*/
+    
+    .clearfix:before,
+    .clearfix:after {
+        content: " ";
+        /* 1 */
+        display: table;
+        /* 2 */
+    }
+    
+    .clearfix:after {
+        clear: both;
+    }
+    /* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+    
+    @media only screen and (min-width: 35em) {
+        /* Style adjustments for viewports that meet the condition */
+    }
+    
+    @media print,
+    (-webkit-min-device-pixel-ratio: 1.25),
+    (min-resolution: 1.25dppx),
+    (min-resolution: 120dpi) {
+        /* Style adjustments for high resolution devices */
+    }
+    /* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+    
+    @media print {
+        *,
+        *:before,
+        *:after {
+            background: transparent !important;
+            color: #000 !important;
+            /* Black prints faster */
+            -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+            text-shadow: none !important;
+        }
+        a,
+        a:visited {
+            text-decoration: underline;
+        }
+        a[href]:after {
+            content: " (" attr(href) ")";
+        }
+        abbr[title]:after {
+            content: " (" attr(title) ")";
+        }
+        /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+        a[href^="#"]:after,
+        a[href^="javascript:"]:after {
+            content: "";
+        }
+        pre {
+            white-space: pre-wrap !important;
+        }
+        pre,
+        blockquote {
+            border: 1px solid #999;
+            page-break-inside: avoid;
+        }
+        /*
+     * Printing Tables:
+     * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+        thead {
+            display: table-header-group;
+        }
+        tr,
+        img {
+            page-break-inside: avoid;
+        }
+        p,
+        h2,
+        h3 {
+            orphans: 3;
+            widows: 3;
+        }
+        h2,
+        h3 {
+            page-break-after: avoid;
+        }
+    }
